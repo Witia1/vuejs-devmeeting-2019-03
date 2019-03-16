@@ -1,17 +1,20 @@
 <template>
   <div class="home">
-    
+    <h1>Home</h1>
+    <BaseButton
+      label="Submit"
+      @click="submit()"
+  />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import BaseButton from "@/components/BaseButton.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    BaseButton
   }
 };
 </script>
