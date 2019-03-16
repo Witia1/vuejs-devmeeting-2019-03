@@ -43,5 +43,6 @@
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
+    margin: 15px;
   }
 </style>
